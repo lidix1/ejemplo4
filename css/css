@@ -45,41 +45,4 @@
     height: 100%;
     opacity: 0.4; }
 
-.nav-tabs a {
-  font-size: 23px;
-  text-align: center; }
-
-.listatab {
-  text-align: center; }
-  .listatab ul {
-    display: inline-block; }
-
-.nav > li > a {
-  padding: 10px 96px; }
-
-.continfo {
-  color: #fff;
-  background: #FCB62B;
-  padding: 28px 61px 60px; }
-  .continfo h2 {
-    position: relative; }
-    .continfo h2:before {
-      content: '';
-      width: 60px;
-      height: 4px;
-      display: inline-block;
-      background: #fff;
-      position: absolute;
-      bottom: -7px; }
-  .continfo a {
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 5px 22px;
-    margin-top: 23px;
-    display: inline-block; }
-    .continfo a:hover {
-      background: #8A5E02;
-      color: #fff;
-      text-decoration: none; }
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=css.map */
