@@ -1,5 +1,11 @@
+/*Declaración de varialbles*/
+$naranja: #FCB62B;
+
+@import 'tab.scss';
+
+
 .navbar {
-	background: #000;
+	background: #000; 
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -7,7 +13,7 @@
 }
 
 .articulo {
-	margin-bottom: 50px;
+	margin-bottom: 50px; 
 	img {
 		width: 100%;
 		height: auto;
@@ -52,53 +58,5 @@
     	height: 100%;
     	opacity: 0.4;
     }
-}
-.nav-tabs {
-	a {
-		font-size: 23px;
-		text-align: center;
-	}
-}
-.listatab {
-	text-align: center;
-	ul {
-		display: inline-block;
-	}
-}
-.nav>li>a {
-	padding: 10px 96px;
-}
-.continfo {
-	color: #fff;
-	background: #FCB62B;
-	padding: 28px 61px 60px;
-	h2{
-		position: relative;
-		&:before{
-			content: '';
-		    width: 60px;
-		    height: 4px;
-		    display: inline-block;
-		    background: #fff;
-		    position: absolute;
-		    bottom: -7px;
-		}
-
-	}
-	p {
-
-	}
-	a{
-		color: #fff;
-	    border: 1px solid #fff;
-	    padding: 5px 22px;
-	    margin-top: 23px;
-	    display: inline-block;
-	    &:hover{
-	    	background: #8A5E02;
-	    	color: #fff;
-	    	text-decoration: none;
-	    }
-	}
 }
 

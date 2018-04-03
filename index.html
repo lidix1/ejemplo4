@@ -9,6 +9,7 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="css/normalize.css" >
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 
 </head>
@@ -87,7 +88,7 @@
 		<div>
 			<div class="listatab">
 				<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
+				<ul class="nav nav-tabs menu-tabs" role="tablist">
 					<li role="presentation" class="active"><a href="#tab1" aria-controls="home" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span> <div>Transporte</div></a></li>
 
 					<li role="presentation"><a href="#tab2" aria-controls="profile" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span> <div>Logística</div></a></li>
@@ -98,9 +99,9 @@
 			<!-- Tab panes -->
 			<div class="tab-content">
 				<div role="tabpanel" class="tab-pane active" id="tab1">
-					<div class="col-lg-6"></div>
-					<div class="col-lg-6">
-						<div class="continfo">
+					<div class="col-lg-6 tabImg" style="background-image:url(img/banner1.png)"></div>
+					<div class="col-lg-6 tabImg contAnt">
+						<div class="continfo animated bounceInUp">
 							<h2>Transporte</h2>
 
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -113,13 +114,43 @@
 							<a href="#">Mas información</a>
 						</div>	
 					</div>
-
-
 				</div>
-				
 
-				<div role="tabpanel" class="tab-pane" id="tab2">Tab 2</div>
-				<div role="tabpanel" class="tab-pane" id="tab3">Tab 3</div>
+				<div role="tabpanel" class="tab-pane" id="tab2">
+					<div class="col-lg-6 tabImg" style="background-image:url(img/banner1.png)"></div>
+					<div class="col-lg-6 tabImg contAnt">
+						<div class="continfo animated bounceInRight">
+							<h2>Logística</h2>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor</p>
+
+							<a href="#">Mas información</a>
+						</div>	
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="tab3">
+					<div class="col-lg-6 tabImg" style="background-image:url(img/banner1.png)"></div>
+					<div class="col-lg-6 tabImg contAnt">
+						<div class="continfo animated slideInUp">
+							<h2>Almacenaje</h2>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor</p>
+
+							<a href="#">Mas información</a>
+						</div>	
+					</div>
+					
+				</div>
 			</div>
 		</div>
 	</section>
